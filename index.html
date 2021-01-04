@@ -8,24 +8,16 @@
 <script src="static/js/main.js"></script>
 <link rel="stylesheet" type="text/css" href="static/css/main.css">
 <script>
- function ConnectToGitHub ()
+ function LoadApplication ()
  {
-	// LoadAdonoiUsingGitHub ();
-	LoadAdonoiUsingRaspberry ();
+	LoadAdonoiUsingGitHub ();
+	// LoadAdonoiUsingRaspberry ();
  }
-function Check_Network_Status ()
-{
-	if (!navigator.onLine) {ShowAlertBox ();}
-	else if (navigator.onLine) 
-		{
-			LoadAdonoiUsingGitHub ();
-			// LoadAdonoiUsingRaspberry ();
-		}
-}
+
 </script>
 </head>
 
-<body class="main_body" onload="Check_Network_Status ()" ononline="ConnectToGitHub ()" >
+<body class="main_body" onload=" LoadApplication ()" ononline="LoadApplication ()" >
 <div id="main-header">
 	<div  id= "Navigetion" class=" header">
 		<div id="NaviDivHeader">
