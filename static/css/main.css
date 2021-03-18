@@ -1,7 +1,28 @@
 
 
-.main_body { background-color:#58d971}
+.main_body { background-color:#808080}
 
+
+.next-to-payment-btn
+{
+    background-color:blue;
+    color: white;
+    font-weight: bold;
+    border:none;
+    width:100%;
+    height:40px;
+    border-radius:18px;
+}
+.Offline-Label
+{
+    font-size: 25px;
+    font-family:Times New Roman Times, serif;
+    color:red;
+    font-weight: bold;
+    font-style: italic;
+    background-color: white;
+    border-bottom: 2px solid blue
+}
 /*=======================================================================================================*/
                                             /*
                                                +++++++++++++++++++++++++ ++
@@ -12,24 +33,25 @@
                                                */
 
 
-.navigetion-icone-flower
+#navigetion-links-div
 {
-    color:#00d054;
-    text-decoration:none;
-    transition:0.3s;
-    display:block;
-    padding:5px 5px;
-    font-size: 25px;
-    font-family:Times New Roman Times, serif; 
+    text-align: center;
 }
 
 #NaviDivHeader
     {
-        background-color: #00ac32;
+        background-color: #A9A9A9;
         height:50px;
     }
 
-
+.open-navigation-label
+    {
+        font-size:35px;
+        cursor:pointer;
+        margin-left: 8px;
+        color: white;
+    }
+    
 #alert-box-display-area{
     display: none;
     opacity: .8;
